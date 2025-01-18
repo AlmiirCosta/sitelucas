@@ -5,71 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quem somos</title>
     <style>
-
-
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
-        body{
-            background-color: rgba(3, 14, 71, 0.938);
-            font-family: "Poppins", serif;
+    body {
+        background-color: rgba(3, 14, 71, 0.938);
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        text-align: center;
+        padding: 15px;
+    }
+
+    header a button {
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    main h2 {
+        color: rgb(216, 223, 185);
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .principal {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .principal img {
+        height: auto;
+        width: 90%;
+        max-width: 400px;
+        border-radius: 10px 5px 10px 5px;
+        margin-bottom: 20px;
+    }
+
+    .principal p {
+        background-color: antiquewhite;
+        padding: 20px;
+        border-radius: 20px 5px 20px 5px;
+        max-width: 600px;
+        margin: 0 10px;
+        font-size: 16px;
+    }
+
+    footer {
+        color: white;
+        background-color: black;
+        padding: 20px;
+        text-align: center;
+        font-size: large;
+        margin-top: 20px;
+    }
+
+    @media (max-width: 768px) {
+        .principal {
+            flex-direction: column;
         }
-
-        main h2{
-            color: rgb(216, 223, 185);
-            text-align: center;
-            padding: 10px;
-            margin-top: 50px;
+        .principal img {
+            width: 100%;
         }
-
-        .principal{
-            display: flex;
-            text-align: center;
-            align-items: center;
+        .principal p {
+            width: 90%;
         }
-
-        .principal p{
-            background-color:antiquewhite ;
-            padding: 7.8vh;
-            border-radius: 20px 5px 20px 5px;
-        }
-
-        .img{
-            height: 35vh;
-            width: 65vw;
-            border-radius: 10px 5px 10px 5px;
-            margin-right: 20px;
-        }
-
-        footer{
-            color: white;
-            background-color: black;
-            padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-            font-size: large;
-            margin-top: 30vh;
-            }
-
+    }
     </style>
 </head>
 <body>
-
     <header>
         <a href="index.html"><button>Home</button></a>
-
     </header>
     <main>
         <h2>Quem Somos?</h2>
-    
         <div class="principal">
-            <img src="img/bb77c335-700f-4858-baf3-66f40df57f81.jpg" alt="" class="img">
-            <p>Somos a Toldos e Coberturas Dois irmãos JG uma empresa com mais de 22 anos de mercado, buscando sempre trazer a melhor solução em coberturas.
-                Visando a satisfação do cliente e um ótimo acabamento, para deixar seu projeto funcional e elegante</p>
+            <img src="img/bb77c335-700f-4858-baf3-66f40df57f81.jpg" alt="Imagem da empresa">
+            <p>Somos a Toldos e Coberturas Dois Irmãos JG, uma empresa com mais de 22 anos de mercado, buscando sempre trazer a melhor solução em coberturas. Visando a satisfação do cliente e um ótimo acabamento, para deixar seu projeto funcional e elegante. <br> <br>
+
+            atendemos em todo RJ
+            </p>
         </div>
     </main>
-
     <footer>
-        <p>Obrigado pela preferencia</p>
+        <p>Obrigado pela preferência</p>
     </footer>
 </body>
 </html>
