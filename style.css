@@ -77,12 +77,17 @@ header a{
 }
 
 .container .list .list-item .buttons button{
+    
     border: none;
     background-color: #eee;
     letter-spacing: 3px;
     font-weight: 500;
     cursor: pointer;
     text-transform: uppercase;
+}
+
+.container .list .list-item .buttons button a{
+    color: #000;
 }
 
 .container .list .list-item .buttons button:hover{
