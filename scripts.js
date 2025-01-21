@@ -1,3 +1,14 @@
+
+function clickMenu(){
+    if(menu.style.display == 'block'){
+        menu.style.display = 'none'
+    }else{
+        menu.style.display = 'block'
+    }
+    
+}
+
+
 let btnNext = document.querySelector('.next');
 let btnBack = document.querySelector('.back');
 
