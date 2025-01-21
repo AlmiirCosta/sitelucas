@@ -240,6 +240,7 @@ button{
     }
     .container .list .list-item .description{
         font-size: 0.8em;
+        padding-left: 30px;
     }
     .container .list .list-item .buttons{
         align-items: center;
