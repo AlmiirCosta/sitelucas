@@ -175,6 +175,20 @@ button{
 }
 
 @media (max-width: 768px) {
+
+    #menu{
+        display: none;
+    }
+
+    .linha{
+        display: block;
+    }
+
+    #hamburguer{
+        display:block;
+        cursor: pointer;
+    }
+
     .container .list .list-item .content{
         top: 15%;
         right: 5%;
@@ -212,7 +226,7 @@ button{
 
     header{
         flex-direction: column;
-        height: auto;
+
     }
     header a{
         margin: 5px 0;
@@ -225,6 +239,7 @@ button{
     }
     .container .list .list-item .tittle{
         font-size: 2em;
+        padding-top: 50px;
     }
     .container .list .list-item .description{
         font-size: 0.8em;
