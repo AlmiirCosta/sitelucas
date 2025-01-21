@@ -176,18 +176,7 @@ button{
 
 @media (max-width: 768px) {
 
-    #menu{
-        display: none;
-    }
-
-    .linha{
-        display: block;
-    }
-
-    #hamburguer{
-        display:block;
-        cursor: pointer;
-    }
+    
 
     .container .list .list-item .content{
         top: 15%;
